@@ -1,3 +1,8 @@
+/*
+ * @Author: wangemiju
+ * @Date: 2020-07-30 14:06:05
+ * @LastEditTime: 2020-07-30 14:15:21
+ */ 
 const { description } = require('../../package')
 
 module.exports = {
@@ -20,7 +25,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-
+  base: '/testguide/', 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
